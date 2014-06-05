@@ -1,18 +1,16 @@
 {
     "name": "ekotechnology/guzzlecal",
     "description": "Google Calendar client that uses Guzzle",
-    "keywords": ["google","calendar", "guzzle", "oauth2"],
+    "keywords": ["google", "calendar", "guzzle", "oauth2"],
     "homepage": "http://github.com/ekotechnology/guzzlecal",
-    "authors": [
-        {
-            "name": "Trea Hauet",
-            "email": "trea@treahauet.com"
-        }
-    ],
+    "authors": [{
+        "name": "Trea Hauet",
+        "email": "trea@treahauet.com"
+    }],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.0.*@dev",
-    	"guzzle/guzzle": "v3.2.0"
+        "illuminate/support": "4.*",
+        "guzzle/guzzle": "v3.2.0"
     },
     "autoload": {
         "psr-0": {
